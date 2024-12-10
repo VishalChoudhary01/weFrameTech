@@ -11,7 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        Geist:"Geist"
+      }
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
